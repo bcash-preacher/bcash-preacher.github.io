@@ -1,0 +1,35 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 3em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+h1.bitcoin {
+	color:#FF9900;
+}
+h1 > span {
+	color:#aaa;
+}
+#footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+    font-size: 0.7em;
+    color: #888;
+  }
+#footer a {
+	color:#FF9900;
+	text-decoration: none; 
+}
